@@ -1,1 +1,0 @@
-R source code files to replicate analyses performed with SMC colon cancer scRNA-seq
