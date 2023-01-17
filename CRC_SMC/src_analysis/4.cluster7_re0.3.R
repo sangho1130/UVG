@@ -1,0 +1,29 @@
+library(Seurat)
+library(ggplot2)
+
+setwd('../')
+subdataset <- readRDS('tmp/crc_smc.malignantcells.Rds')
+head(subdataset@meta.data, n=3); nrow(subdataset@meta.data)
+
+epcam <- grep(rownames(subdataset), value = T, pattern = "^EPCAM-ENSG")[1]
+krt19 <- grep(rownames(subdataset), value = T, pattern = "^KRT19-ENSG")[1]
+krt8 <- grep(rownames(subdataset), value = T, pattern = "^KRT8-ENSG")[1]
+
+cd45 <- grep(rownames(subdataset), value = T, pattern = "^PTPRC-ENSG")[1]
+
+nkg7 <- grep(rownames(subdataset), value = T, pattern = "^NKG7-ENSG")[1]
+cd8a <- grep(rownames(subdataset), value = T, pattern = "^CD8A-ENSG")[1]
+cd3e <- grep(rownames(subdataset), value = T, pattern = "^CD3E-ENSG")[1]
+
+ighg1 <- grep(rownames(subdataset), value = T, pattern = "^IGHG1-ENSG")[1]
+cd79b <- grep(rownames(subdataset), value = T, pattern = "^CD79B-ENSG")[1]
+cd79a <- grep(rownames(subdataset), value = T, pattern = "^CD79A-ENSG")[1]
+
+dir.create('res_various/res_0.3/cluster7')
+Idents(subdataset) <- factor(Idents(subdataset), levels = rev(levels(Idents(subdataset))))
+DotPlot(subdataset, features = c(epcam, krt19, krt8, cd45, nkg7, cd8a, cd3e, ighg1, cd79a, cd79b)) + 
+  labs(x = 'Cluster', y = '') +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+#ggsave('res_various/res_0.3/cluster7/cluster7.pdf', units = 'cm', width = 8, height = 10)
+
+
