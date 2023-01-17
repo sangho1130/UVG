@@ -1,3 +1,4 @@
+Barkley, D., Moncada, R., Pour, M. et al. Cancer cell states recur across tumor types and form specific interactions with the tumor microenvironment. Nat Genet 54, 1192–1201 (2022). https://doi.org/10.1038/s41588-022-01141-9
 Cycle	Stress	Interferon	Hypoxia	Oxphos	Metal	Mesenchymal	pEMT	Alveolar	Basal	Squamous	Glandular	Ciliated	AC	OPC	NPC
 ACYP1	ABHD3	ACTN1	ADM	ATOX1	FKBP5	AQP1	ACTB	AGER	ALDH3A1	AKR1B10	AGR2	AC007906.2	AGT	ASCL1	ARL4D
 ANLN	AC016629.8	APOL1	AHNAK	ATP5H	HEY1	BGN	ACTG1	CAPN8	ASPN	AQP3	AQP5	AGR3	ALDOC	MAP3K1	CAMK2N1
