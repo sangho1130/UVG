@@ -1,3 +1,4 @@
+Kinker, G.S., Greenwald, A.C., Tal, R. et al. Pan-cancer single-cell RNA-seq identifies recurring programs of cellular heterogeneity. Nat Genet 52, 1208–1218 (2020). https://doi.org/10.1038/s41588-020-00726-6
 Cell Cycle - G1/S	Cell Cycle - G2/M	Skin Pigmentation	EMT I	EMT II	IFN Response	EMT III	p53-Dependent Senescence 	Epithelial Senescence	Stress Response	Protein Maturation	Proteasomal Degradation
 HIST1H4C	AURKA	PHACTR1	DKK1	MYL9	ISG20	LAMA3	CDKN1A	SLPI	DDIT3	HSPA5	PSMA3
 CLSPN	CENPF	DCT	PMEPA1	SERPINE1	IFIT3	LAMB3	NEAT1	LCN2	SNHG12	RPN2	PSMC4
