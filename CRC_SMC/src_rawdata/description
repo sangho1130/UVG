@@ -7,5 +7,5 @@ Run "python master_cellranger.py --help" to see options
 Run "python master_velocyto.py --help" to see options
 Visit http://velocyto.org to install velocyto package and dependecies.
 
-*run_scvelo.res0.3.py was used to infer RNA velocity on pre-calculated UMAP using scVelo.
+*run_scvelo.res0.3.py was used to infer RNA velocity using scVelo.
 UMAP coordinations were extracted from the Seurat object along with malignant cluster information.
