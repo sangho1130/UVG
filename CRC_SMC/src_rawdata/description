@@ -1,1 +1,11 @@
 Python scripts for Cellranger and RNA velocity (Velocyto to make loom files -> scVelo to calculate RNA velocity) analyses
+
+*master_cellranger.py was used to run raw 10X scRNA-seq data sequentially. 
+Run "python master_cellranger.py --help" to see options
+
+*master_velocyto.py was used to make loom files w/ spliced and unspliced counts using velocyto.
+Run "python master_velocyto.py --help" to see options
+Visit http://velocyto.org to install velocyto package and dependecies.
+
+*run_scvelo.res0.3.py was used to infer RNA velocity on pre-calculated UMAP using scVelo.
+UMAP coordinations were extracted from the Seurat object along with malignant cluster information.
