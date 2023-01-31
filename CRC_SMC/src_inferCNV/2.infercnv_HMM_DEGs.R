@@ -72,6 +72,7 @@ dir.create("degs_hmmStates")
 
 for (pt in colnames(cnv_degs)[-1]) {
   tmp_cnv_degs <- na.omit(cnv_degs[, c("Chr", pt)])
+  tmp_cnv_degs[, pt] <- round(tmp_cnv_degs[, pt])
   tmp_cnv_degs[, pt] <- mapvalues(tmp_cnv_degs[, pt], from = c(1,2,3,4,5,6), to = c("0x", "0.5x", "1x", "1.5x", "2x", "3x"))
   tmp_cnv_degs[, pt] <- factor(tmp_cnv_degs[, pt], levels = c("0x", "0.5x", "1x", "1.5x", "2x", "3x"))
   
