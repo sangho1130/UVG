@@ -2,7 +2,7 @@ R source code files for variance normalization and clustering
 Raw processed count data for this section can be found in figshare: 
 
 *variance_normalization.R is the main code which sequentially runs
-  1.new_variGenes.R to normalize variance and evaluate HVGs and
+  1.new_variGenes.R to normalize variance and set UVGs
   2.various_res.R to cluster malignant cells 
 
 *1.new_variGenes.R
