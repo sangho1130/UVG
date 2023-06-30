@@ -16,6 +16,7 @@ malObj <- newVariGenes(inputObj = malObj, # A Seurat object with malignant cells
 
 *  2.various_res.R
 malObj <- various_res(inputObj = malObj, # The malignant cell object processed by 1.new_variGenes.R
+                      outputPath = "./", # Output directory will be placed here
                       pcNum = pcs_use, # The number of PCs to use
                       scaleFactor = 10, # scaleFactor and rangeMax decide clustering resolution
                       rangeMax = 2) # scaleFactor and rangeMax decide clustering resolution
