@@ -8,3 +8,4 @@ Single-cell RNA sequencing (scRNA-seq) has revealed important insights into the 
 
 Processed count and metadata are provided through figshare: https://figshare.com/projects/Clustering_Malignant_Cell_States_using_Universally_Variable_Genes/157446
 
+Normalize variance and select UVGs: [here](CRC_SMC/UVG_clustering)
