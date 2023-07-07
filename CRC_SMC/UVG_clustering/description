@@ -2,7 +2,7 @@ R source code files for variance normalization and clustering
 Raw processed count data for this section can be found in figshare: 
 
 *variance_normalization.R is the main code which sequentially runs
-  1.new_variGenes.R to normalize variance and set UVGs
+  1.new_variGenes.R to normalize variance and select UVGs
   2.various_res.R to cluster malignant cells 
 
 *1.new_variGenes.R
@@ -14,7 +14,7 @@ malObj <- newVariGenes(inputObj = malObj, # A Seurat object with malignant cells
                         pltf = c("3p", "ss2"), # scRNA-seq platform (smart-seq2 mode (ss2) expects log normalized data; log2(TPM+1)) or log1p(TPM)
                         base = c("log", "log2")) # *SS2 mode only, base of log
 
-*  2.various_res.R
+*2.various_res.R
 malObj <- various_res(inputObj = malObj, # The malignant cell object processed by 1.new_variGenes.R
                       outputPath = "./", # Output directory will be placed here
                       pcNum = pcs_use, # The number of PCs to use
