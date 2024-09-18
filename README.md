@@ -1,5 +1,4 @@
-**Clustering Malignant Cell States using Universally Variable Genes** _(manuscript in preparation)_
-
+**Clustering Malignant Cell States using Universally Variable Genes** (https://doi.org/10.1093/bib/bbad460)
 Sang-Ho Yoon & Jin-Wu Nam
 
 ![plot](./CRC_SMC/UVG_clustering/UVG.jpg)
